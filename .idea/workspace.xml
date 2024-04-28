@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d14d2374-1951-47da-b892-be58af6f7ff3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sasAssignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/dateTimeValidator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/dateValidator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testDateTimeValidator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/expected.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testOutput/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/CheckDateTimeFormat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testCheckDateTimeFormat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/duplicate_expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/duplicate_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/empty_expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/empty_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/invalid_expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/invalid_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOutput/duplicate_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOutput/empty_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOutput/invalid_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dateTimeValidator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dateValidator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testDateTimeValidator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/expected.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testData/expected.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +52,29 @@
     "Python tests.Python tests for test.test_check_date_validity_invalid.executor": "Run",
     "Python tests.Python tests for test.test_check_date_validity_valid.executor": "Run",
     "Python tests.Python tests for test.test_date_validator.executor": "Run",
+    "Python tests.Python tests for testCheckDateTimeFormat.test_duplicate_date_strings.executor": "Run",
+    "Python tests.Python tests for testCheckDateTimeFormat.test_file_comparison.executor": "Run",
     "Python tests.Python tests in ninutest.py.executor": "Run",
     "Python tests.Python tests in test.py.executor": "Run",
+    "Python tests.Python tests in testCheckDateTimeFormat.py.executor": "Run",
     "Python tests.Python tests in testDateTimeValidator.py.executor": "Run",
     "Python.dateValidator.executor": "Run",
     "Python.ninudatetest.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/ninuthomas/PycharmProjects/sasAssignment",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in testDateTimeValidator.py">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testOutput" />
+      <recent name="$PROJECT_DIR$/testData" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in testCheckDateTimeFormat.py">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sasAssignment" />
       <option name="ENV_FILES" value="" />
@@ -87,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_check_date_validity_invalid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for testCheckDateTimeFormat.test_duplicate_date_strings" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="sasAssignment" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,11 +109,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_check_date_validity_invalid&quot;" />
+      <option name="_new_target" value="&quot;testCheckDateTimeFormat.test_duplicate_date_strings&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_check_date_validity_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for testCheckDateTimeFormat.test_file_comparison" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="sasAssignment" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +124,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_check_date_validity_valid&quot;" />
+      <option name="_new_target" value="&quot;testCheckDateTimeFormat.test_file_comparison&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -132,6 +143,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in testCheckDateTimeFormat.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="sasAssignment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/testCheckDateTimeFormat.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in testDateTimeValidator.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="sasAssignment" />
       <option name="ENV_FILES" value="" />
@@ -147,28 +173,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="sasAssignment" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in testDateTimeValidator.py" />
+        <item itemvalue="Python tests.Python tests in testCheckDateTimeFormat.py" />
+        <item itemvalue="Python tests.Python tests for testCheckDateTimeFormat.test_duplicate_date_strings" />
+        <item itemvalue="Python tests.Python tests for testCheckDateTimeFormat.test_file_comparison" />
         <item itemvalue="Python tests.Python tests for test.test_date_validator" />
-        <item itemvalue="Python tests.Python tests in test.py" />
-        <item itemvalue="Python tests.Python tests for test.test_check_date_validity_invalid" />
-        <item itemvalue="Python tests.Python tests for test.test_check_date_validity_valid" />
+        <item itemvalue="Python tests.Python tests in testDateTimeValidator.py" />
       </list>
     </recent_temporary>
   </component>
