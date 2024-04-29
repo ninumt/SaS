@@ -1,6 +1,6 @@
 import os
 import filecmp
-from main.CheckDateTimeFormat import *
+from main.checkDateTimeFormat import *
 
 def test_file_comparison():
     # Provide a mixed data which contains invalid, duplicate dates with whitespace, ,', blank spaces in input file

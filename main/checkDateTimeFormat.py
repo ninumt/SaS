@@ -24,9 +24,7 @@ class CheckDateTimeFormat:
             content = file1.readlines()
             valid_dates = set()
             for line in content:
-                line = line.strip('\n')
-                line = line.strip(',')
-                date_str = line.strip()
+                date_str = line.strip('\n').strip(',').strip() # assuming we have only white spaces or , or '\n'
                 if self.is_valid_utc_date(date_str):
                     valid_dates.add(date_str)
 
