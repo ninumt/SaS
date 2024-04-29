@@ -1,4 +1,4 @@
-import os
+import os,logging
 import filecmp
 from main.checkDateTimeFormat import *
 
@@ -8,7 +8,7 @@ def test_file_comparison():
     output_file_path = "../testOutput/output.txt"
     expected_file_path = "../testData/expected.txt"
     processor = CheckDateTimeFormat()
-    processor.read_write_check_date_time(input_file_path, output_file_path)
+    processor.dateValidator(input_file_path, output_file_path)
 
     assert os.path.exists(output_file_path)
     assert os.path.exists(expected_file_path)
@@ -21,7 +21,7 @@ def test_duplicate_date_strings():
     output_file_path = "../testOutput/duplicate_output.txt"
     expected_file_path = "../testData/duplicate_expected.txt"
     processor = CheckDateTimeFormat()
-    processor.read_write_check_date_time(input_file_path, output_file_path)
+    processor.dateValidator(input_file_path, output_file_path)
 
     assert os.path.exists(output_file_path)
     assert os.path.exists(expected_file_path)
@@ -33,7 +33,7 @@ def test_empty_input_file():
     output_file_path = "../testOutput/empty_output.txt"
     expected_file_path = "../testData/empty_expected.txt"
     processor = CheckDateTimeFormat()
-    processor.read_write_check_date_time(input_file_path, output_file_path)
+    processor.dateValidator(input_file_path, output_file_path)
 
     assert os.path.exists(output_file_path)
     assert os.path.exists(expected_file_path)
@@ -47,7 +47,7 @@ def test_invalid_datetime_input_file():
     expected_file_path = "../testData/invalid_expected.txt"
     processor = CheckDateTimeFormat()
 
-    processor.read_write_check_date_time(input_file_path, output_file_path)
+    processor.dateValidator(input_file_path, output_file_path)
 
     assert os.path.exists(output_file_path)
     assert os.path.exists(expected_file_path)
@@ -66,3 +66,5 @@ def test_invalid_datetime_input_file():
 #     assert os.path.exists(expected_file_path)
 
 #    assert filecmp.cmp(file2_path, file3_path)
+
+
